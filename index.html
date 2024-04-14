@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+</head>
+<body>
+    <head>
+        <h1>Tabla</h1>
+        <nav style="padding-bottom: 5%;">
+            <a href="./"><input type="button" value="Tabla"></a>
+            <a href="./gatitos.html"> <input type="button" value="Gatitos"> </a>
+        </nav>
+    </head>
+    <table border="1px solid black">
+        <tr bgcolor="#DFE8EB">
+            <th colspan="3">Invoice #123456789</th>
+            <th>14 January 2025</th>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <div><strong>Pay to:</strong></div>
+                <div>Acme Billing Co.</div>
+                <div>123 Main St.</div>
+                <div>Cityville, NA 12345</div>
+            </td>
+            <td colspan="2">
+                <div><strong>Customer:</strong></div>
+                <div>John Smith</div>
+                <div>321 Willow Way</div>
+                <div>Southeast Northwestershire, MA 54321</div>
+            </td>
+        </tr>
+
+        <tr bgcolor="#DFE8EB">
+            <th >Name / Description</th>
+            <th>Qty.</th>
+            <th>&#64;</th>
+            <th>Cost</th>
+        </tr>
+
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+
+        <tr>
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.0</td>
+            <td>100.00</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#DFE8EB" colspan="3">Subtotal</th>
+            <td>110.00</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#DFE8EB" colspan="2">Tax</th>
+            <td>8&#37;</td>
+            <td>8.80</td>
+        </tr>
+
+        <tfoot>
+            <th bgcolor="#DFE8EB" colspan="3">Grand Total</th>
+            <td>&#36; 118.80</td>
+        </tfoot>
+    </table>
+</body>
+</html>
